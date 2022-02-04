@@ -107,7 +107,7 @@ dependencies = [
 [[package]]
 name = "dioxus"
 version = "0.1.8"
-source = "git+https://github.com/dioxuslabs/dioxus#2b22015bc98a51bc38d342f7f817291fa5b72cbc"
+source = "git+https://github.com/dioxuslabs/dioxus#557d1d18dd53dade0a2bdb3f8cebc7aa861852f4"
 dependencies = [
  "dioxus-core",
  "dioxus-core-macro",
@@ -119,7 +119,7 @@ dependencies = [
 [[package]]
 name = "dioxus-core"
 version = "0.1.9"
-source = "git+https://github.com/dioxuslabs/dioxus#2b22015bc98a51bc38d342f7f817291fa5b72cbc"
+source = "git+https://github.com/dioxuslabs/dioxus#557d1d18dd53dade0a2bdb3f8cebc7aa861852f4"
 dependencies = [
  "backtrace",
  "bumpalo",
@@ -137,7 +137,7 @@ dependencies = [
 [[package]]
 name = "dioxus-core-macro"
 version = "0.1.7"
-source = "git+https://github.com/dioxuslabs/dioxus#2b22015bc98a51bc38d342f7f817291fa5b72cbc"
+source = "git+https://github.com/dioxuslabs/dioxus#557d1d18dd53dade0a2bdb3f8cebc7aa861852f4"
 dependencies = [
  "once_cell",
  "proc-macro-error",
@@ -149,7 +149,7 @@ dependencies = [
 [[package]]
 name = "dioxus-hooks"
 version = "0.1.7"
-source = "git+https://github.com/dioxuslabs/dioxus#2b22015bc98a51bc38d342f7f817291fa5b72cbc"
+source = "git+https://github.com/dioxuslabs/dioxus#557d1d18dd53dade0a2bdb3f8cebc7aa861852f4"
 dependencies = [
  "dioxus-core",
 ]
@@ -157,7 +157,7 @@ dependencies = [
 [[package]]
 name = "dioxus-html"
 version = "0.1.6"
-source = "git+https://github.com/dioxuslabs/dioxus#2b22015bc98a51bc38d342f7f817291fa5b72cbc"
+source = "git+https://github.com/dioxuslabs/dioxus#557d1d18dd53dade0a2bdb3f8cebc7aa861852f4"
 dependencies = [
  "dioxus-core",
 ]
@@ -165,12 +165,12 @@ dependencies = [
 [[package]]
 name = "dioxus-interpreter-js"
 version = "0.0.0"
-source = "git+https://github.com/dioxuslabs/dioxus#2b22015bc98a51bc38d342f7f817291fa5b72cbc"
+source = "git+https://github.com/dioxuslabs/dioxus#557d1d18dd53dade0a2bdb3f8cebc7aa861852f4"
 
 [[package]]
 name = "dioxus-web"
 version = "0.0.5"
-source = "git+https://github.com/dioxuslabs/dioxus#2b22015bc98a51bc38d342f7f817291fa5b72cbc"
+source = "git+https://github.com/dioxuslabs/dioxus#557d1d18dd53dade0a2bdb3f8cebc7aa861852f4"
 dependencies = [
  "anyhow",
  "async-channel",

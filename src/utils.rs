@@ -11,6 +11,12 @@ pub fn get_random_word(length: usize) -> &'static str {
         .unwrap()
 }
 
+pub fn is_valid_word(word: String) -> bool {
+    WORDS
+        .split('\n')
+        .any(|w| w == word.as_str())
+}
+
 #[derive(PartialEq, Eq, Debug, Clone, Copy)]
 pub enum LetterState {
     None,
@@ -52,16 +58,4 @@ macro_rules! styled {
             })
         }
     }
-}
-
-#[macro_export]
-macro_rules! println {
-    ($string:expr, $( $arg:expr ),+) => {{
-        use web_sys::console::log_1;
-        log_1(&format!("{}\n", format!($string, $( $arg ),*)).into())
-    }};
-    ($string:expr) => {{
-        use web_sys::console::log_1;
-        log_1(&format!("{}\n", $string).into())
-    }}
 }
